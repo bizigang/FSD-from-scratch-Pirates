@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #90afc5;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-left: 25px;
+}
+a:hover{
+    background: #e4b600;
+    border-radius: 5px;
+    color: #2d4262;
+
+}
+#A{
+    background-color:  #e4b600;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #b38540;
+    width: 200px;
+    height: 20px;
+    color: #2d4262;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+#B{
+    background-color:  #e4b600;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #b38540;
+    color: #2d4262;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+#header{
+    background-color: #0f1f38;
+    height: 50px;
+    padding-top: 10px;
+
+}
+
+#boxA{
+    display: inline-block;
+    padding-left: 10px;
+}
+#boxB{
+    display: inline-block;
+    float: right;
+    padding-right: 10px;
+    margin-right: 20px;
+}
+#blockA{
+    width: 1366px;
+    height: 400px;
+    background-image: url(The\ skull\ pirate.jpg);
+    background-repeat: round;
+    border-bottom: 1px solid white;
+}
+#blockB{
+    background-color: #102a49;
+    height: 550px;
+   padding-top: 50px;
+   padding-left: 200px;
+   border-bottom: 1px solid white;
+ 
+}
+.heroes{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#left{
+    margin-right: 100px;
+    float: left;
+    width: 250px;
+    /* display: inline-block;
+ */}
+#middle{
+    float: left;
+    width: 250px;  
+     /* display: inline-block; */
+}
+#right{
+    margin-left: 100px;
+    float: left;
+    width: 250px;   
+    /* display: inline-block;
+} */}
+h2{
+    text-align: center;
+    /* color: #b38540; */
+    color: #b38540;
+}
+p{  color:  #b38540;
+    text-align: center;
+    margin-top: 10px;
+}
+.C{
+    background-color:  #e4b600;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #b38540;
+    color: #2d4262;
+    font-weight: bold;
+    padding: 0px 10px;
+    width: 150px;
+    height: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.series{
+    width: 500px;
+    height: 500px;
+    float: right;
+    padding: 30px;
+    
+}
+#blockC{
+    width: 1349px;
+    height: 500px;
+    background-color: #0f1f38;
+    border-bottom: 1px solid white;
+}
+
+.context{
+    float: left;
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 30px;
+    
+}
+.context p{
+    color: #90afc5;
+}
+#blockD{
+    width: 1349px;
+    background-color: #0f1f38;
+    height: 500px;
+    border-bottom: 1px solid white;
+}
+#blockE{
+    width: 1349px;
+    background-color: #0f1f38;
+    height: 500px;
+    border-bottom: 1px solid white;
+}
+.Q{
+    float: right;
+    width: 800px;
+    text-align: center;
+    padding-top: 150px;
+    padding-right: 30px;
+   
+}
+.Q p{
+    color: #90afc5;
+}
+#Q{
+    float: left;
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+    
+}
+
+audio{
+    display: none;
+}
